@@ -37,9 +37,9 @@ def winner(board)
   if won?(board) != false
     array = won?(board)
   if array[0] == "X"
-    "X"
+   puts "X"
   elsif array[0] == "O"
-    "O"
+   puts"O"
   else
     nil
   end
