@@ -41,6 +41,5 @@ def winner(board)
   elsif array[0] == "O"
    puts"O"
   else
-    nil
   end
 end
