@@ -36,7 +36,7 @@ end
 def winner(board)
   if won?(board) != false
     array = won?(board)
-  if board(array[0]) == "X"
+  if board[array[0]] == "X"
    puts "X"
   else
   end
