@@ -35,6 +35,7 @@ end
 
 def winner(board)
   if won?(board) != false
+    array = won?(board)
     return board[array[0]]
   end
 end
